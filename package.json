@@ -1,13 +1,21 @@
 {
   "type": "module",
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "prettier": "^3.2.5",
     "vitepress": "^1.2.2"
   },
   "scripts": {
+    "commit": "cz",
     "lint": "prettier . -w",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
