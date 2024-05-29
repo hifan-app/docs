@@ -1,8 +1,11 @@
 {
+  "type": "module",
   "devDependencies": {
+    "prettier": "^3.2.5",
     "vitepress": "^1.2.2"
   },
   "scripts": {
+    "lint": "prettier . -w",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
