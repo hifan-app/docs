@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'HiFan',
   description: 'HiFan Docs',
+  srcDir: 'docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
