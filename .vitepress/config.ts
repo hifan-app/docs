@@ -17,7 +17,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      description: 'Time tracker | 时间追踪软件',
+      description: '番剧追踪软件',
       themeConfig: {
         sidebar: {
           '/guide/': {
@@ -27,8 +27,8 @@ export default defineConfig({
                 text: 'Guide',
                 items: [
                   {
-                    text: 'What is shion?',
-                    link: '/what-is-shion'
+                    text: 'What is HiFan?',
+                    link: '/what-is-hifan'
                   },
                   {
                     text: 'Feature',
@@ -62,7 +62,7 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: 'Guide', link: '/guide/what-is-shion' },
+          { text: 'Guide', link: '/guide/what-is-hifan' },
           { text: 'Download', link: '/download' }
         ]
       }
@@ -71,7 +71,7 @@ export default defineConfig({
       label: '中文',
       lang: 'zh',
       link: '/zh/',
-      description: '时间追踪软件',
+      description: '番剧追踪软件',
       themeConfig: {
         sidebar: {
           '/zh/guide/': {
@@ -81,8 +81,8 @@ export default defineConfig({
                 text: '指南',
                 items: [
                   {
-                    text: '什么是 shion?',
-                    link: '/what-is-shion'
+                    text: '什么是 HiFan?',
+                    link: '/what-is-hifan'
                   },
                   {
                     text: '功能',
@@ -116,7 +116,7 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: '指南', link: '/zh/guide/what-is-shion' },
+          { text: '指南', link: '/zh/guide/what-is-hifan' },
           { text: '下载', link: '/zh/download' }
         ]
       }
